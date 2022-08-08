@@ -1,0 +1,155 @@
+.wrapper{
+    margin: auto;
+    width: 90%;
+    background-color: #CDD3CE; 
+    font-family: 'Permanent Marker', cursive;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 70px;
+    margin: 0;
+    color: #B118C8;
+}
+
+h2{
+    font-size: 50px;
+    margin: 0;
+    color: #B118C8;
+}
+
+h3{
+    font-size: 40px;
+    margin: 0;
+    color: #B118C8;
+    text-align: center; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-left: 10%;
+}
+
+li{
+    text-align: left;
+}
+
+
+.header{
+    text-align: right;
+}
+
+.photo{
+    width: 150px;
+    height: 150px;
+    background-image: url("./images/As.jpg");
+    border-radius: 75px;
+}
+
+main{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    background-color: #F9F8F8;
+    border-radius: 20px;
+}
+
+.block{
+    text-align: center; 
+    width: 100%;
+}
+
+
+.skills{
+    display: flex;
+    gap:10%;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    align-items: center;   
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    background-color: #BBB5BD;
+    height: 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.skill:hover{
+    background-color: #eae5ec;
+}
+
+@media(max-width:768px){
+    header{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        }
+        .header{
+            text-align: center;
+        } 
+        
+        h2{
+            padding-top: 50px;
+        }
+}
+
+@media(max-width:1400px){
+    header{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        }
+        .header{
+            text-align: center;
+        }    
+}
